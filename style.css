@@ -1,0 +1,65 @@
+.div a {
+    text-align: center;
+}
+.topnav a 
+{   float: left;
+    color: white;
+    text-align: center;
+    padding: 15 px, 16 px;
+   
+ }
+
+.topnav a:hover 
+{background-color:#bdd5dc;
+color: black }
+
+h1 {text-align: center;}
+.topnav {
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+  }
+.topnav a 
+{   float: left;
+    color: white;
+    text-align: center;
+    padding: 15 px, 16 px;
+   
+ }
+
+.topnav a:hover 
+{background-color:#bdd5dc;
+}
+#button {
+    text-align: right;
+}
+#header{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.navbar-inverse {
+    color: rgb(255, 255, 255);
+    font-size:24px;
+    font-weight:bold;
+    text-align:center;
+    }
+
+    #post {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .funny.gif {
+        width: max-content;
+        height: max-content;
+    }
+
+    .container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -moz-transform: translateX(-50%) translateY(-50%);
+        -webkit-transform: translateX(-50%) translateY(-50%);
+        transform: translateX(-50%) translateY(-50%);
+    }
