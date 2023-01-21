@@ -9,9 +9,7 @@
    
  }
 
-.topnav a:hover 
-{background-color:#bdd5dc;
-color: black }
+
 
 h1 {text-align: center;}
 .topnav {
@@ -55,11 +53,17 @@ h1 {text-align: center;}
         height: max-content;
     }
 
-    .container {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        -moz-transform: translateX(-50%) translateY(-50%);
-        -webkit-transform: translateX(-50%) translateY(-50%);
-        transform: translateX(-50%) translateY(-50%);
+    background { 
+        background: url(funny\ thing.gif) no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
     }
+.img {
+    float: left}
+
+.image {
+    float: right}
+
+    
