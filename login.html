@@ -3,14 +3,71 @@
     <head>
         <meta charset="UTF-8">
         <title>Sign Up</title>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-    </head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+        <link rel="stylesheet" href="style.css">
+    
+
+        <script src="./app.js"></script>
+        <head>
+        
+            <nav class="navbar navbar-inverse">
+                <div class="container-fluid bg-dark">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="#">The Construction Finder</a>
+                    </div>
+                    <ul class="nav navbar-nav bg-light">
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="about.html">About Us</a>
+                        </li>
+                        <li>
+                            <a href="posts.html"> Posts</a>
+                        </li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <div
+                                data-toggle="modal"
+                                data-target="#">
+                                    <a
+                                    href="createpost.html"><img src="tcf_create.png"
+                                        alt="Post"
+                                        style="height: 45px; width: 45px;"
+                                        class="responsive">
+                                    Create Post</a></div>
+                        </li>
+                        <li>
+                            <div>
+                                <a href="login.html"><img src="tcf_profile.png"
+                                        alt="Post"
+                                        style="height: 45px; width: 45px;"
+                                        class="responsive">
+                                    Login  </a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </head>
     <body>
-        <div class="container" >
+        <div class="bg-dark" style="border: 15px;">
+            <body style="background-color:#0E1626;"
             <div class="row">
                 <div class="col-md-12">
+                    <dialog open>
                     <h2>Register</h2>
-                    <p>Please fill this form to create an account.</p>
+                    <p>Fill this form to create an account.</p>
                     <form action="" method="post">
                         <div class="form-group">
                             <label>Full Name</label>
@@ -31,11 +88,13 @@
                         <div class="form-group">
                             <input type="submit" name="submit" class="btn btn-primary" value="Submit">
                         </div>
-                        <p>Already have an account? <a href="login.php">Login here</a>.</p>
                     </form>
+                    </dialog>
                 </div>
             </div>
+           
         </div>    
+    
     </body>
 </html>
 
